@@ -1,12 +1,12 @@
 body{
  /*   width: 1024px;*/
-    background-color:#8f1111;
+    background-color:#0a0e4b;
        
     }
 
 .container{
     width: 1024px;
-    background-color:#ecf015;
+    background-color:#7ea9f8;
     margin-left: auto;
     margin-right: auto;
     
@@ -27,38 +27,62 @@ body{
  
     }
 
-.left_personal_information, .right_personal_information{        
+    .photo
+    {
+        height: 99%;
+        width: 30%;
+        float: left;
+
+    }
+    .FIO
+    {
+        
+        height: 99%;
+        width: 69%;
+        float: right;
+    }
+    
+
+    .left_personal_information, .right_personal_information{        
         width:50%;
         height:180px;
-        text-align: center; 
-        vertical-align: baseline;
+        
+      
     }
+    
+
     .left_personal_information
     {
         float: left;
+        text-align: center; 
+
     }    
     .right_personal_information{
         float: right;
-        vertical-align: center;
+        font-style: italic;
+        text-align: center; 
+        vertical-align: bottom;
+        font-size: 20px;
+
 
     }
-    .phone_number{  
-        height:50%;   
-        
-        
+    .letter
+    {
+        font-style: italic;
+        font-size: 24px;
 
     }
+
     .contacts{
-        height:50%;
-       
-        
+        height: 50%;
+        margin-top: 33px;
+        font-style: bold; 
+    
+        }
 
-    }
-
-    .menu{
-        border: 0.5px solid rgb(114, 41, 41);
-        width:1023px;
-        background-color:#1a38c2;
+    .menu{        
+        width:1024px;
+        background-color:#ffffff;
         margin: auto;
         float:left;
         clear:left;
@@ -66,10 +90,10 @@ body{
     }
 
     td{
-        border: 0.5px solid rgb(114, 41, 41);
-
         padding:0px;
         width:176px;
+        height: 30px;
+        font-size: 20px;
         text-align: center; 
         vertical-align: baseline;
         
