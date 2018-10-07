@@ -1,7 +1,84 @@
 body{
-    background-color:#800505;
+ /*   width: 1024px;*/
+    background-color:#8f1111;
+       
+    }
+
+.container{
+    width: 1024px;
+    background-color:#ecf015;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.header{
+    position:relative;
+  
+    }
+
+.personal_information{
+    background-color:#f7f7f7;
     margin-left: auto;
     margin-right: auto;
     width: 1024px;
+    float:left;
+  
+ 
     }
 
+.left_personal_information, .right_personal_information{        
+        width:50%;
+        height:180px;
+        text-align: center; 
+        vertical-align: baseline;
+    }
+    .left_personal_information
+    {
+        float: left;
+    }    
+    .right_personal_information{
+        float: right;
+        vertical-align: center;
+
+    }
+    .phone_number{  
+        height:50%;   
+        
+        
+
+    }
+    .contacts{
+        height:50%;
+       
+        
+
+    }
+
+    .menu{
+        border: 0.5px solid rgb(114, 41, 41);
+        width:1023px;
+        background-color:#1a38c2;
+        margin: auto;
+        float:left;
+        clear:left;
+            
+    }
+
+    td{
+        border: 0.5px solid rgb(114, 41, 41);
+
+        padding:0px;
+        width:176px;
+        text-align: center; 
+        vertical-align: baseline;
+        
+        
+    }
+        
+
+
+
+
+    
+            
